@@ -11,13 +11,15 @@
 // c. hem 3'e hem 5'e tam bolunenleri de FizzBuzz seklinde konsola loglayan bir fonksiyon yazin.
 
 function fizzBuzz() {
-  for (let number = 0; number < 107; number++) {
+  for (let number = 1; number < 101; number++) {
     if (number % 15 === 0) {
       console.log("This number is :", number, "FizzBuzz");
     } else if (number % 3 === 0) {
       console.log("This number is :", number, "Fizz");
     } else if (number % 5 === 0) {
       console.log("This number is :", number, "Buzz");
+    } else {
+      console.log("This number is :", number);
     }
   }
 }
